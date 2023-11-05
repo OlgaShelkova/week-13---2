@@ -1,0 +1,30 @@
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  padding: 100px;
+  color: #BEADFA;
+  background-color: #F8FDCF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  background-color: #FAF1E4;
+}
+
+#calculateDaysButton {
+margin-top: 20px;
+padding: 10px;
+background-color: #B6FFFA;
+border:  1px solid #BEADFA;
+border-radius: 5px;
+}
+
+#calculateDaysButton:hover {
+  background-color: #98E4FF;
+
+}
+
+
+/* background-size: 700px 500px;*/

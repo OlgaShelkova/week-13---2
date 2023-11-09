@@ -9,7 +9,7 @@ const resultMessage = document.getElementById("resultMessage");
 /*Проверка является ли selectedDate числом. 
 Если не является, выводится сообщение об ошибке и результат очищается.
 Если selectedDate является числом, сообщение об ошибке скрывается.*/
-            if (isNaN(selectedDate)) {
+            if (isNaN(selectedDate.getTime())) {
                 errorMessage.style.display = "block";
                 resultMessage.textContent = "";
             } else {
